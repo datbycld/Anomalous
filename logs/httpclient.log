@@ -1,0 +1,7 @@
+[ERROR] 36-2019-10-08 08:48:19,703 method:anomalous.anomalous.util.weixin.ConfigUtil.getProperty(ConfigUtil.java:36) - class path resource [static/weixin/weixin.properties] cannot be opened because it does not exist
+java.io.FileNotFoundException: class path resource [static/weixin/weixin.properties] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:180)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:133)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.loadProperties(PropertiesLoaderUtils.java:122)
+	at anomalous.anomalous.util.weixin.ConfigUtil.getProperty(ConfigUtil.java:34)
+	at anomalous.anomalous.util.weixin.WebChatConfig.<clinit>(WebChatConfig.java:34)

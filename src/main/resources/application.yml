@@ -1,0 +1,8 @@
+server:
+  port: 80
+
+logging:
+  level:
+    com.uustop: debug
+    org.springframework: WARN
+    org.spring.springboot.dao: debug
